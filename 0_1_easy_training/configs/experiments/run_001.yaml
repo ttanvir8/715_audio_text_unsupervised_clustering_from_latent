@@ -1,0 +1,6 @@
+run_name: lyrics_vae_run_001
+data_config: 0_1_easy_training/configs/data_base.yaml
+vae_config: 0_1_easy_training/configs/vae/lyrics_vae_default.yaml
+output_dir: 0_1_easy_training/experiments/lyrics_vae_run_001
+seed: 751
+

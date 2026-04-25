@@ -1,0 +1,29 @@
+inputs:
+  checkpoint_path: 1_training/experiments/mm_cbeta_vae_experiment_002/best_checkpoint/model.pt
+  latent_mu_path: 1_training/experiments/mm_cbeta_vae_experiment_002/latent_exports/val_mu.npy
+  latent_assisted_path: 1_training/experiments/mm_cbeta_vae_experiment_002/latent_exports/val_metadata_assisted.npy
+  labels_path: 1_training/experiments/mm_cbeta_vae_experiment_002/latent_exports/val_labels.parquet
+  split_indices_path: 1_training/experiments/mm_cbeta_vae_experiment_002/split_indices.json
+
+embeddings:
+  fair_embedding: mu
+  assisted_embedding: mu_plus_condition_projection
+
+algorithms:
+  - kmeans
+  - gmm
+
+cluster_counts:
+  genre_k: 51
+  language_k: 4
+  silhouette_sweep_k:
+    - 16
+    - 32
+    - 51
+    - 64
+
+metrics:
+  - silhouette
+  - nmi
+  - ari
+  - purity

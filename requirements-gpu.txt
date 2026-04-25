@@ -1,0 +1,9 @@
+# Pinned optional GPU dependencies for RAPIDS/cuML clustering and UMAP visualizations.
+# These wheels require Linux/WSL2, a supported NVIDIA GPU, and a matching CUDA 12 setup.
+# Install only if you need cuML-backed runs:
+#   uv pip install -r requirements-gpu.txt
+
+--extra-index-url https://pypi.nvidia.com
+
+cuml-cu12==26.4.0
+cupy-cuda12x==14.0.1

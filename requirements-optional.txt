@@ -1,0 +1,5 @@
+# Pinned optional CPU-side extras.
+# Install only when using features that request them explicitly:
+#   uv pip install -r requirements-optional.txt
+
+umap-learn==0.5.12

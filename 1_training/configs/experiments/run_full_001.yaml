@@ -1,0 +1,5 @@
+run_name: mm_cbeta_vae_full_001
+data_config: 1_training/configs/data_base.yaml
+vae_config: 1_training/configs/vae/mm_cbeta_vae_default.yaml
+clustering_config: 1_training/configs/clustering/clustering_default.yaml
+output_dir: 1_training/experiments/mm_cbeta_vae_full_001

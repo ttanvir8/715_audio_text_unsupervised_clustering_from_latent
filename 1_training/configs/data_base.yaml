@@ -1,0 +1,12 @@
+seed: 751
+model_input_path: 0_data_pre_processing/processed_dataset/model_input/model_input_dataset.parquet
+mel_tensor_dir: 0_data_pre_processing/processed_dataset/mel_tensors
+label_path: 0_data_pre_processing/processed_dataset/genre_language/genre_language_embeddings.parquet
+train_ratio: 0.85
+val_ratio: 0.15
+stratify_by: genre_language
+mel_cache_chunks: 16
+num_workers: 4
+normalization:
+  mel_transform: log1p
+  mel_stats_source: train_split_only

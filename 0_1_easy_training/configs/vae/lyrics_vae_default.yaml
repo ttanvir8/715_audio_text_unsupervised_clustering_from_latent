@@ -1,0 +1,33 @@
+model:
+  name: BasicLyricsVAE
+  input_dim: 1024
+  z_dim: 64
+  hidden_dims:
+    - 512
+    - 256
+  dropout: 0.10
+
+training:
+  device: auto
+  epochs: 80
+  batch_size: 64
+  optimizer: adamw
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  mixed_precision: true
+  checkpoint_metric: recon_loss
+  checkpoint_mode: min
+  early_stopping_patience: 12
+  save_every_epoch: true
+  step_log_every: 1
+  val_step_log_every: 1
+
+loss:
+  cosine_weight: 1.0
+  mse_weight: 0.05
+  beta_max: 1.0
+  beta_warmup_fraction: 0.30
+  free_bits: 0.02
+  active_kl_threshold: 0.01
+

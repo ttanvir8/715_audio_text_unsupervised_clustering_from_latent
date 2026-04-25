@@ -1,0 +1,16 @@
+seed: 751
+model_input_path: 0_data_pre_processing/processed_dataset/model_input/model_input_dataset.parquet
+mel_tensor_dir: 0_data_pre_processing/processed_dataset/mel_tensors
+label_path: 0_data_pre_processing/processed_dataset/genre_language/genre_language_embeddings.parquet
+input_embedding_column: lyrics_e5_large_embedding
+language_column: music_lang
+train_ratio: 0.85
+val_ratio: 0.15
+max_rows_per_language: null
+min_rows_per_language: 2
+mel_cache_chunks: 16
+num_workers: 4
+normalization:
+  mel_transform: log1p
+  mel_stats_source: train_split_only
+

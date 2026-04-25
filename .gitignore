@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Local envs
+.venv/
+venv/
+env/
+
+# Generated data and artifacts
+*.npy
+*.npz
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.pkl
+*.pickle
+
+# Project outputs
+0_data_pre_processing/processed_dataset/
+0_data_pre_processing/embedding_models/
+*/experiments/
+*/latent_exports/
+*/latents_by_best_checkpoints/
+*/clustering_outputs/
+*/cluster_visulization_outputs/
+*/visualization_outputs/
+*/checkpoints/
+*/runs/
+
+# Misc caches
+.cache/
+.DS_Store

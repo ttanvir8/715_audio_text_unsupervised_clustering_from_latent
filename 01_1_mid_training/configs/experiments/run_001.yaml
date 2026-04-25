@@ -1,0 +1,6 @@
+run_name: audio_lyrics_vae_run_001
+data_config: 01_1_mid_training/configs/data_base.yaml
+vae_config: 01_1_mid_training/configs/vae/audio_lyrics_vae_default.yaml
+output_dir: 01_1_mid_training/experiments/audio_lyrics_vae_run_001
+seed: 751
+

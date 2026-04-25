@@ -1,0 +1,10 @@
+seed: 751
+lyrics_path: 0_data_pre_processing/processed_dataset/lyrics_e5_large/lyrics_embeddings.parquet
+input_embedding_column: lyrics_e5_large_embedding
+language_column: music_lang
+train_ratio: 0.85
+val_ratio: 0.15
+max_rows_per_language: null
+min_rows_per_language: 2
+num_workers: 0
+include_clean_lyrics: false
