@@ -1,6 +1,5 @@
-# Music VAE Clustering Project
-
-This repository contains the preprocessing, VAE training, latent inference, clustering, and visualization pipeline for hybrid-language music data.
+# VAE-Based Unsupervised Clustering of Multilingual and Multi-genre Music Using Multimodal Features
+The codebase for the project. It's the complete preprocessing, VAE training, latent inference, clustering, and visualization pipeline for hybrid-language music data.
 
 ## Repository Map
 
