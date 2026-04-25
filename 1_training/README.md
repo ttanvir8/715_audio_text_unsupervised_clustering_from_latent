@@ -6,18 +6,6 @@ The full run trains the model, writes checkpoints, saves train-only mel normaliz
 
 ## 1. Activate The AI Env
 
-Always use the project AI environment:
-
-```bash
-source /home/tanvir/fun/tts/voxtral/.venv/bin/activate
-```
-
-Check the core packages before installing anything new:
-
-```bash
-uv pip list | grep -E "torch|pyarrow|pandas|numpy|scikit-learn|PyYAML|tqdm"
-```
-
 The current pipeline uses packages already available in the AI env:
 
 ```text
