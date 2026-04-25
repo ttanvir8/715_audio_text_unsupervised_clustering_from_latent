@@ -168,7 +168,7 @@ cd ..
 
 The lyrics preprocessing script loads this model with `local_files_only=True`.
 
-## Common Commands
+## Commands to reproduce the results of the paper
 
 Run commands from the repository root unless a command explicitly changes directory.
 Activate the AI environment first:
