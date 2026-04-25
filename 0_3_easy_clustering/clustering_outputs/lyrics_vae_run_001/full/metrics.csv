@@ -1,0 +1,2 @@
+scope,embedding,algorithm,assignment,k,sample_count,cluster_count,target,silhouette,nmi,ari,purity
+full,mu,kmeans,kmeans__mu__k4,4,9661,4,language,0.960468590259552,0.8696859531001359,0.9466658333451582,0.9774350481316634

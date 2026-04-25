@@ -1,0 +1,25 @@
+{
+  "scope": "full",
+  "embedding": "mu",
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_2_inference/latents_by_best_checkpoints/audio_lyrics_vae_run_001/full",
+  "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_3_mid_clustering/clustering_outputs/audio_lyrics_vae_run_001/full",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_3_mid_clustering/clustering_outputs/audio_lyrics_vae_run_001/full/visualizations",
+  "assignment_column": "kmeans__mu__language_k4",
+  "row_count": 9661,
+  "cluster_count": 4,
+  "pca_explained_variance_ratio_sum": 0.9932119846343994,
+  "tsne_plotted_rows": 3000,
+  "max_manifold_points": 3000,
+  "genre_top_n": 12,
+  "artifacts": [
+    "latent_space/pca_*.png",
+    "latent_space/tsne_*.png",
+    "latent_space/*_points.parquet",
+    "distributions/cluster_language_*.csv",
+    "distributions/cluster_language_*.png",
+    "distributions/cluster_genre_*.csv",
+    "distributions/cluster_genre_*.png",
+    "metrics/metric_comparison_table.csv",
+    "metrics/metric_comparison.png"
+  ]
+}

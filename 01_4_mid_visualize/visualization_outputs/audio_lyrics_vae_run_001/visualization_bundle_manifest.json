@@ -1,0 +1,10 @@
+{
+  "output_root": "/mnt/c/Users/LEGION/Work/751/hard_final/01_4_mid_visualize/visualization_outputs/audio_lyrics_vae_run_001",
+  "scope": "both",
+  "embedding": "mu",
+  "steps": [
+    "run_audio_lyrics_cluster_visualizations.py",
+    "run_audio_lyrics_reconstruction_examples.py",
+    "run_mid_latent_zoom_music_names.py"
+  ]
+}

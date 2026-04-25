@@ -1,0 +1,45 @@
+{
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_2_inference/latents_by_best_checkpoints/audio_lyrics_vae_run_001/full",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_3_mid_clustering/clustering_outputs/audio_lyrics_vae_run_001/full",
+  "scope": "full",
+  "embedding": "mu",
+  "label_column": "music_lang",
+  "label_id_column": "music_lang_id",
+  "target_name": "language",
+  "target_labels": [
+    "en",
+    "es",
+    "pt",
+    "pt-br"
+  ],
+  "cluster_k": 4,
+  "agglomerative_linkage": "ward",
+  "dbscan_min_samples": [
+    5,
+    10
+  ],
+  "dbscan_percentiles": [
+    50,
+    60,
+    70,
+    80,
+    85,
+    90,
+    95
+  ],
+  "best_dbscan": {
+    "dbscan_eps": 0.04679015278816223,
+    "dbscan_min_samples": 10,
+    "dbscan_percentile": 95,
+    "cluster_count": 36,
+    "cluster_count_excluding_noise": 35,
+    "noise_fraction": 0.015422834075147501
+  },
+  "seed": 751,
+  "n_init": 50,
+  "value_shape": [
+    9661,
+    64
+  ],
+  "standardized": true
+}

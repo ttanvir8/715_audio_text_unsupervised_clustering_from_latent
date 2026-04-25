@@ -1,0 +1,2 @@
+scope,embedding,algorithm,assignment,k,sample_count,cluster_count,target,label_column,davies_bouldin,silhouette,nmi,ari,purity
+validation,mu,kmeans,kmeans__mu__language_k4,4,1449,4,language,music_lang,0.4297090645300016,0.7259345650672913,0.005544934052903474,0.0046261069771671845,0.5182884748102139

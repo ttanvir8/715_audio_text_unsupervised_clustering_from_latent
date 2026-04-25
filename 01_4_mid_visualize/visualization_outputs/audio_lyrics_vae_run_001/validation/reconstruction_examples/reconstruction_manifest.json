@@ -1,0 +1,17 @@
+{
+  "scope": "validation",
+  "experiment_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_1_mid_training/experiments/audio_lyrics_vae_run_001",
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_2_inference/latents_by_best_checkpoints/audio_lyrics_vae_run_001/validation",
+  "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_3_mid_clustering/clustering_outputs/audio_lyrics_vae_run_001/validation",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_4_mid_visualize/visualization_outputs/audio_lyrics_vae_run_001/validation/reconstruction_examples",
+  "device": "cuda",
+  "cluster_column": "kmeans__mu__language_k4",
+  "examples_per_cluster": 1,
+  "max_clusters": 8,
+  "rendered_examples": 4,
+  "artifacts": [
+    "selected_reconstruction_examples.csv",
+    "reconstruction_gallery.png",
+    "per_example/*.png"
+  ]
+}

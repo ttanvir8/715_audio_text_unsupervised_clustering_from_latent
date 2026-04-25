@@ -1,0 +1,111 @@
+{
+  "scopes": [
+    "validation",
+    "full"
+  ],
+  "output_subdir": "letent_space",
+  "manifests": [
+    {
+      "scope": "validation",
+      "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/validation",
+      "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/validation",
+      "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space",
+      "assignment_column": "kmeans__mu__k4",
+      "row_count": 1449,
+      "seed": 751,
+      "artifacts": [
+        {
+          "embedding": "mu",
+          "method": "pca",
+          "rows": 1449,
+          "explained_variance_ratio": [
+            0.9999773502349854,
+            1.7505893993075006e-05
+          ],
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_mu_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_mu_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_mu_colored_by_language.png"
+          ]
+        },
+        {
+          "embedding": "logvar",
+          "method": "pca",
+          "rows": 1449,
+          "explained_variance_ratio": [
+            0.5882402658462524,
+            0.37302452325820923
+          ],
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_logvar_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_logvar_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/pca_logvar_colored_by_language.png"
+          ]
+        },
+        {
+          "embedding": "mu",
+          "method": "tsne",
+          "rows": 1449,
+          "plotted_rows": 1449,
+          "max_tsne_points": 3000,
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/tsne_mu_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/tsne_mu_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/letent_space/tsne_mu_colored_by_language.png"
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "full",
+      "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/full",
+      "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/full",
+      "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space",
+      "assignment_column": "kmeans__mu__k4",
+      "row_count": 9661,
+      "seed": 751,
+      "artifacts": [
+        {
+          "embedding": "mu",
+          "method": "pca",
+          "rows": 9661,
+          "explained_variance_ratio": [
+            0.9999771118164062,
+            1.8082053429679945e-05
+          ],
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_mu_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_mu_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_mu_colored_by_language.png"
+          ]
+        },
+        {
+          "embedding": "logvar",
+          "method": "pca",
+          "rows": 9661,
+          "explained_variance_ratio": [
+            0.586983859539032,
+            0.3746453821659088
+          ],
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_logvar_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_logvar_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/pca_logvar_colored_by_language.png"
+          ]
+        },
+        {
+          "embedding": "mu",
+          "method": "tsne",
+          "rows": 9661,
+          "plotted_rows": 3000,
+          "max_tsne_points": 3000,
+          "artifacts": [
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/tsne_mu_points.parquet",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/tsne_mu_colored_by_cluster.png",
+            "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/letent_space/tsne_mu_colored_by_language.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

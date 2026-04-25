@@ -1,0 +1,9 @@
+{
+  "scope_count": 2,
+  "scopes": [
+    "validation",
+    "full"
+  ],
+  "output_root": "/mnt/c/Users/LEGION/Work/751/hard_final/01_4_mid_visualize/visualization_outputs/audio_lyrics_vae_run_001",
+  "embedding": "mu"
+}

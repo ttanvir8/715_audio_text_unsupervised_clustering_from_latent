@@ -1,0 +1,5 @@
+scope,method,feature_source,target,label_column,k,sample_count,feature_dim,cluster_count,silhouette,calinski_harabasz,davies_bouldin,pca_explained_variance_ratio_sum,nmi,ari,purity
+validation,vae_mu_kmeans,standardized_mu,language,music_lang,4,1449,64,4,0.7259345650672913,9199.263752760588,0.4297090645300016,,0.005544934052903474,0.0046261069771671845,0.5182884748102139
+validation,pca_audio_lyrics_kmeans,standardized_audio_lyrics_pca,language,music_lang,4,1449,64,4,0.12205410748720169,209.5154561555094,2.300406988432233,0.5678828358650208,0.6036248689660825,0.4911713381680729,0.966183574879227
+validation,autoencoder_audio_lyrics_kmeans,standardized_audio_lyrics_autoencoder,language,music_lang,4,1449,64,4,0.05511992797255516,81.03084450402615,3.4181206337791137,,0.5962935534633285,0.5170788665444566,0.9606625258799172
+validation,spectral_feature_kmeans,standardized_compact_spectral_features,language,music_lang,4,1449,324,4,0.18907637894153595,610.4588002815094,1.6330686274728063,,0.006636031311617842,0.004297521495855023,0.5189786059351277

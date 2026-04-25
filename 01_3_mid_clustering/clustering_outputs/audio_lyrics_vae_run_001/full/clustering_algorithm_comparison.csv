@@ -1,0 +1,4 @@
+scope,feature_name,algorithm,target,label_column,sample_count,feature_dim,cluster_count,cluster_count_excluding_noise,noise_count,noise_fraction,silhouette,davies_bouldin,nmi,ari,purity,k,dbscan_eps,dbscan_min_samples,dbscan_percentile
+full,mu,kmeans,language,music_lang,9661,64,4,4,0,0.0,0.7216124534606934,0.4199231184311885,0.003145791239333875,0.0034484838930022993,0.514439499016665,4.0,,,
+full,mu,agglomerative_ward,language,music_lang,9661,64,4,4,0,0.0,0.6674766540527344,0.4730735851703905,0.0038471292047752795,0.0031172825120840777,0.5175447676223993,4.0,,,
+full,mu,dbscan,language,music_lang,9661,64,36,35,149,0.015422834075147501,0.47023269534111023,1.0730536786553317,0.006085042324161566,0.004737365015794044,0.524583376462064,,0.04679015278816223,10.0,95.0

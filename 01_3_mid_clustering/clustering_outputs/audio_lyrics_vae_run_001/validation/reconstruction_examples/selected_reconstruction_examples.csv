@@ -1,0 +1,5 @@
+row_index,music_id,main_genre,music_lang,main_genre_id,music_lang_id,music_name,art_id,art_name,cluster,latent_position,cluster_distance,cluster_rank,mel_mse,lyrics_mse,lyrics_cosine
+3992,3ade68b8gf28c5fa3,Romantic,en,41,0,Butterfly,3ade68b6g54caeda3,Jason Mraz,0,614,0.6552459597587585,1,2461.1484375,0.0010179722448810935,0.9326555132865906
+1167,3ade68b8g201fd0b3,Romantic,pt-br,41,3,Meu Investimento,3ade68b7gf2a40ea3,Luan Santana,1,187,0.2991541922092438,1,2057.55810546875,0.0012514968402683735,0.9394885897636414
+2295,3ade68b8g9942cfa3,MPB,pt-br,26,3,Eu Não Existo Sem Você,3ade68b5g4f58eda3,Vinicius de Moraes,2,353,0.06557036191225052,1,3036.84228515625,0.0009667237172834575,0.924170732498169
+8134,3ade68b8gd28290b3,Sertanejo,pt-br,44,3,Anjo de Cabelos Longos,3ade68b6g4a83fda3,Fernando e Sorocaba,3,1227,0.1763646900653839,1,1982.2572021484375,0.0010984138352796435,0.9230155348777771

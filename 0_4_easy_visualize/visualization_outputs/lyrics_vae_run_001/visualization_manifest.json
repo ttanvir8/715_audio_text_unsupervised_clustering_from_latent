@@ -1,0 +1,46 @@
+{
+  "scopes": [
+    "validation",
+    "full"
+  ],
+  "method": "tsne",
+  "embedding": "mu",
+  "manifests": [
+    {
+      "scope": "validation",
+      "method": "tsne",
+      "embedding": "mu",
+      "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/validation",
+      "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/validation",
+      "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation",
+      "assignment_column": "kmeans__mu__k4",
+      "row_count": 1449,
+      "plotted_rows": 1449,
+      "max_points": 3000,
+      "seed": 751,
+      "artifacts": [
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/manifold/tsne_mu_points.parquet",
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/manifold/tsne_mu_colored_by_cluster.png",
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/validation/manifold/tsne_mu_colored_by_language.png"
+      ]
+    },
+    {
+      "scope": "full",
+      "method": "tsne",
+      "embedding": "mu",
+      "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/full",
+      "clustering_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/full",
+      "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full",
+      "assignment_column": "kmeans__mu__k4",
+      "row_count": 9661,
+      "plotted_rows": 3000,
+      "max_points": 3000,
+      "seed": 751,
+      "artifacts": [
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/manifold/tsne_mu_points.parquet",
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/manifold/tsne_mu_colored_by_cluster.png",
+        "/mnt/c/Users/LEGION/Work/751/hard_final/0_4_easy_visualize/visualization_outputs/lyrics_vae_run_001/full/manifold/tsne_mu_colored_by_language.png"
+      ]
+    }
+  ]
+}

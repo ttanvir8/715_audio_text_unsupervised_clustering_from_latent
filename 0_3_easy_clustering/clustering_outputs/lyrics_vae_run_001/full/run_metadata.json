@@ -1,0 +1,28 @@
+{
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/full",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/full",
+  "scope": "full",
+  "embedding": "mu",
+  "language_names": [
+    "en",
+    "es",
+    "pt",
+    "pt-br"
+  ],
+  "language_k": 4,
+  "seed": 751,
+  "n_init": 50,
+  "sweep_k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "value_shape": [
+    9661,
+    64
+  ],
+  "standardized": true
+}

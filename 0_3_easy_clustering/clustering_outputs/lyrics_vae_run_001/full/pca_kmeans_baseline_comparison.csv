@@ -1,0 +1,3 @@
+scope,method,feature_source,k,sample_count,feature_dim,cluster_count,silhouette,calinski_harabasz,pca_explained_variance_ratio_sum
+full,vae_mu_kmeans,standardized_mu,4,9661,64,4,0.960468590259552,1664867.1706623212,
+full,pca_lyrics_kmeans,standardized_lyrics_e5_large_embedding_pca,4,9661,64,4,0.14528903365135193,1157.162258422657,0.47585371136665344

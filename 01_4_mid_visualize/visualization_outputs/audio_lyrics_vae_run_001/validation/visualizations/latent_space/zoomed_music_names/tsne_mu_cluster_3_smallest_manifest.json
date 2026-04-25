@@ -1,0 +1,10 @@
+{
+  "scope": "validation",
+  "method": "tsne",
+  "embedding": "mu",
+  "focus_name": "cluster_3_smallest",
+  "plotted_rows": 206,
+  "labeled_rows": 60,
+  "plot_path": "/mnt/c/Users/LEGION/Work/751/hard_final/01_4_mid_visualize/visualization_outputs/audio_lyrics_vae_run_001/validation/visualizations/latent_space/zoomed_music_names/tsne_mu_cluster_3_smallest_music_names.png",
+  "labeled_points_path": "/mnt/c/Users/LEGION/Work/751/hard_final/01_4_mid_visualize/visualization_outputs/audio_lyrics_vae_run_001/validation/visualizations/latent_space/zoomed_music_names/tsne_mu_cluster_3_smallest_labeled_points.parquet"
+}

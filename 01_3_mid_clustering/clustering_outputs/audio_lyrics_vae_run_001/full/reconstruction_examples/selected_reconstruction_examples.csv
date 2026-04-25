@@ -1,0 +1,5 @@
+row_index,music_id,main_genre,music_lang,main_genre_id,music_lang_id,music_name,art_id,art_name,cluster,latent_position,cluster_distance,cluster_rank,mel_mse,lyrics_mse,lyrics_cosine
+3304,3ade68b8g1166e0b3,Pop,en,31,0,Rare (Alexander 23 Remix),3ade68b7g54290ea3,Selena Gomez,0,3304,0.06944386661052704,1,2051.7978515625,0.0009250749717466533,0.9357169270515442
+4658,3ade68b7g06d89ea3,Gospel/Religious,pt-br,15,3,Mamãe Oxum,3ade68b6g8197fda3,Umbanda,1,4658,0.11311062425374985,1,115654.1953125,0.0012174297589808702,0.8927922248840332
+8910,3ade68b7gb6fb3ea3,Hard Rock,en,18,0,I Won't See You Tonight (part 1),3ade68b6g6ffaeda3,Avenged Sevenfold,2,8910,0.7321668863296509,1,606.9559326171875,0.000987506122328341,0.9417048096656799
+6928,3ade68b8gad0d5fa3,Rock,pt-br,39,3,Confesso,3ade68b5gfc38eda3,Cássia Eller,3,6928,0.1661914736032486,1,293.9053649902344,0.0012653867015615106,0.9345298409461975

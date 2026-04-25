@@ -1,0 +1,5 @@
+assignment,cluster,size,top_genre,top_genre_count,top_genre_fraction,unique_genres
+kmeans__mu__language_k4,0,3311,Gospel/Religious,449,0.1356085774690426,50
+kmeans__mu__language_k4,1,1436,Pop,151,0.10515320334261838,51
+kmeans__mu__language_k4,2,2899,Gospel/Religious,366,0.12625043118316662,51
+kmeans__mu__language_k4,3,2015,Sertanejo,214,0.10620347394540942,50

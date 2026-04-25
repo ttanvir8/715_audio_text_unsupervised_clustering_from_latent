@@ -1,0 +1,25 @@
+{
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_2_easy_inference/latents_by_best_checkpoints/lyrics_vae_run_001/full",
+  "lyrics_path": "/mnt/c/Users/LEGION/Work/751/hard_final/0_data_pre_processing/processed_dataset/lyrics_e5_large/lyrics_embeddings.parquet",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_3_easy_clustering/clustering_outputs/lyrics_vae_run_001/full",
+  "scope": "full",
+  "vae_embedding": "mu",
+  "lyrics_embedding_column": "lyrics_e5_large_embedding",
+  "pca_components_requested": 64,
+  "pca_components_used": 64,
+  "pca_explained_variance_ratio_sum": 0.47585371136665344,
+  "language_names": [
+    "en",
+    "es",
+    "pt",
+    "pt-br"
+  ],
+  "k": 4,
+  "seed": 751,
+  "n_init": 50,
+  "outputs": [
+    "pca_kmeans_baseline_comparison.csv",
+    "pca_kmeans_baseline_assignments.parquet",
+    "pca_kmeans_baseline_metadata.json"
+  ]
+}

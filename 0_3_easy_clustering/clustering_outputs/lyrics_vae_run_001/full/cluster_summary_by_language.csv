@@ -1,0 +1,5 @@
+assignment,cluster,size,top_language,top_language_count,top_language_fraction,unique_languages
+kmeans__mu__k4,0,4672,en,4602,0.9850171232876712,4
+kmeans__mu__k4,1,4673,pt-br,4629,0.9905842071474428,3
+kmeans__mu__k4,2,168,es,102,0.6071428571428571,3
+kmeans__mu__k4,3,148,es,110,0.7432432432432432,3

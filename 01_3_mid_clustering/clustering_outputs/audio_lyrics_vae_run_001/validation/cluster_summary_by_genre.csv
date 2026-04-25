@@ -1,0 +1,5 @@
+assignment,cluster,size,top_genre,top_genre_count,top_genre_fraction,unique_genres
+kmeans__mu__language_k4,0,410,Gospel/Religious,59,0.14390243902439023,43
+kmeans__mu__language_k4,1,316,Romantic,33,0.10443037974683544,42
+kmeans__mu__language_k4,2,517,Gospel/Religious,67,0.12959381044487428,44
+kmeans__mu__language_k4,3,206,Pop,22,0.10679611650485436,41

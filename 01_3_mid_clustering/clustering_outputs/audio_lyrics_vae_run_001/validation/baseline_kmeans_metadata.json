@@ -1,0 +1,37 @@
+{
+  "latent_scope_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_2_inference/latents_by_best_checkpoints/audio_lyrics_vae_run_001/validation",
+  "output_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/01_3_mid_clustering/clustering_outputs/audio_lyrics_vae_run_001/validation",
+  "model_input_path": "/mnt/c/Users/LEGION/Work/751/hard_final/0_data_pre_processing/processed_dataset/model_input/model_input_dataset.parquet",
+  "mel_tensor_dir": "/mnt/c/Users/LEGION/Work/751/hard_final/0_data_pre_processing/processed_dataset/mel_tensors",
+  "scope": "validation",
+  "vae_embedding": "mu",
+  "label_column": "music_lang",
+  "label_id_column": "music_lang_id",
+  "target_name": "language",
+  "target_labels": [
+    "en",
+    "es",
+    "pt",
+    "pt-br"
+  ],
+  "cluster_k": 4,
+  "lyrics_embedding_column": "lyrics_e5_large_embedding",
+  "spectral_time_bins": 32,
+  "pca_components_requested": 64,
+  "pca_components_used": 64,
+  "pca_explained_variance_ratio_sum": 0.5678828358650208,
+  "autoencoder": {
+    "latent_dim": 64,
+    "epochs": 40,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "device": "auto"
+  },
+  "seed": 751,
+  "n_init": 50,
+  "outputs": [
+    "baseline_kmeans_comparison.csv",
+    "baseline_kmeans_assignments.parquet",
+    "baseline_kmeans_metadata.json"
+  ]
+}
